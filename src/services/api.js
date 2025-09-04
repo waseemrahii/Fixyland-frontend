@@ -1,4 +1,4 @@
-const API_BASE_URL = "https://fixyland-api.vercel.app/api/v0"
+const API_BASE_URL = "http://localhost:5000/api/v0"
 
 // Generic API request handler
 const apiRequest = async (endpoint, options = {}) => {

@@ -7,7 +7,7 @@ export default function ApiStatus() {
   useEffect(() => {
     const checkApiStatus = async () => {
       try {
-        const response = await fetch("https://fixyland-api.vercel.app/api/v0/staff", {
+        const response = await fetch("http://localhost:5000/api/v0/staff", {
           method: "GET",
           headers: { "Content-Type": "application/json" },
         })
