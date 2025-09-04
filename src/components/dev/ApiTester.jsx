@@ -1,5 +1,3 @@
-"use client"
-
 import { useState } from "react"
 import { staffAPI, hotelsAPI, appointmentsAPI } from "../../services/api"
 
