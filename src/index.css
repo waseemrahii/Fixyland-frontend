@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  font-size: 15px; 
+}
+
+body {
+  @apply text-gray-800 bg-white leading-relaxed;
+  overflow-x: hidden
+}
+
+.container {
+  @apply max-w-7xl mx-auto px-4;
+}
+
+/* .clip-slash-forward {
+  clip-path: polygon(0 0, 100% 0, calc(100% - 20px) 100%, 0 100%);
+}
+
+.clip-slash-backward {
+  clip-path: polygon(20px 0, 100% 0, 100% 100%, 0 100%);
+} */
+
+
+.clip-slash-forward {
+  clip-path: polygon(0 0, 100% 0, calc(100% - 20px) 100%, 0 100%);
+}
+
+.clip-slash-backward {
+  clip-path: polygon(20px 0, 100% 0, 100% 100%, 0 100%);
+  margin-left: -20px; /* overlaps with the forward slash */
+}
